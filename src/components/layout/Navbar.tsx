@@ -17,7 +17,6 @@ export const Navbar = () => {
     <nav className="fixed top-0 w-full z-50 bg-nude/80 backdrop-blur-md border-b border-rose-gold-light/20">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-full bg-rose-gradient flex items-center justify-center text-white font-bold">BP</div>
           <span className="font-display text-xl font-bold tracking-tight">By Paula Gomes <span className="text-rose-gold">Store</span></span>
         </div>
 

@@ -39,7 +39,7 @@ export const Hero = () => {
           </Button>
           <div className="flex items-center gap-2 text-soft-black/50 font-medium">
             <Clock className="w-5 h-5 text-rose-gold" />
-            Entrega em até 7–20 dias
+            Entrega em até 10–15 dias
           </div>
         </div>
 

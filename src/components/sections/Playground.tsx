@@ -143,9 +143,7 @@ export const Playground = () => {
 
             {/* Chat Header */}
             <div className="bg-rose-gold-light/20 p-4 rounded-2xl flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-full bg-rose-gradient flex items-center justify-center text-white font-bold">
-                BP
-              </div>
+          
               <div>
                 <h4 className="font-bold text-sm">Assistente By Paula Gomes</h4>
                 <span className="text-[10px] text-green-500 font-bold uppercase tracking-widest">
