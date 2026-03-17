@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-rose-gold: #B76E79;
+  --color-rose-gold-light: #E5D1C5;
+  --color-nude: #FAF9F6;
+  --color-soft-black: #1A1A1A;
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  @apply bg-nude text-soft-black font-sans antialiased;
+}
+
+.font-display {
+  font-family: var(--font-serif);
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-rose-gold to-[#D4AF37];
+}
+
+.bg-rose-gradient {
+  @apply bg-gradient-to-br from-rose-gold to-[#D4AF37];
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-nude;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-rose-gold/30 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-rose-gold/50;
+}
